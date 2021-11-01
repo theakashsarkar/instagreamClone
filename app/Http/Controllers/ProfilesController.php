@@ -7,10 +7,12 @@ use Illuminate\Http\Request;
 
 class ProfilesController extends Controller
 {
-    function index($user){
-        $user  = User::findOrFail($user);
-        return view('profiles.index',[
+  public  function index(User $user){
+            return view('profiles.index',[
             'user' => $user,
         ]);
+    }
+    public function edit(User $user){
+        return view('profiles.edit',compact('user'));
     }
 }
