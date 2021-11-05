@@ -33,7 +33,7 @@ class ProfilesController extends Controller
       
        auth()->user()->profile->update(array_merge(
         $validated,
-        $imageArray,
+        $imageArray ?? [],
        ));
 
        return redirect("/profile/{$user->id}");
