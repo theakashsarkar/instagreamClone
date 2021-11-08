@@ -10,7 +10,7 @@
             <div class="d-flex justify-content-between align-item-baseline">
                 <div class="d-flex align-item-center pb-3">
                     <div class="h4 ">{{ $user->username }}</div>
-                    <follow-button></follow-button>
+                    <follow-button user-id="{{ $user->id }}"></follow-button>
                 </div>
                 <a href="/p/create">New Post</a>
             </div>
