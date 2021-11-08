@@ -2058,32 +2058,9 @@ module.exports = {
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FollowButton.vue?vue&type=script&lang=js& ***!
   \*******************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-//
-//
-//
-//
-//
-//
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  props: ['userId'],
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  },
-  methods: {
-    followUser: function followUser() {
-      axios.post('/follow/' + this.userId).then(function (response) {
-        alert(response.data);
-      });
-    }
-  }
-});
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: /home/sujan/work/instagremClone/resources/js/components/FollowButton.vue: Unexpected token, expected \",\" (16:4)\n\n\u001b[0m \u001b[90m 14 |\u001b[39m         \u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m     }\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 16 |\u001b[39m     methods\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m         followUser(){\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m             axios\u001b[33m.\u001b[39mpost(\u001b[32m'/follow/'\u001b[39m \u001b[33m+\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39muserId)\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m                 \u001b[33m.\u001b[39mthen(response \u001b[33m=>\u001b[39m {\u001b[0m\n    at Parser._raise (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:510:17)\n    at Parser.raiseWithData (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:503:17)\n    at Parser.raise (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:464:17)\n    at Parser.unexpected (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:3368:16)\n    at Parser.expect (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:3342:28)\n    at Parser.parseObjectLike (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:12072:14)\n    at Parser.parseExprAtom (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:11571:23)\n    at Parser.parseExprSubscripts (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:11217:23)\n    at Parser.parseUpdate (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:11197:21)\n    at Parser.parseMaybeUnary (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:11172:23)\n    at Parser.parseMaybeUnaryOrPrivate (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:10986:59)\n    at Parser.parseExprOps (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:10993:23)\n    at Parser.parseMaybeConditional (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:10963:23)\n    at Parser.parseMaybeAssign (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:10926:21)\n    at /home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:10888:39\n    at Parser.allowInAnd (/home/sujan/work/instagremClone/node_modules/@babel/parser/lib/index.js:12714:16)");
 
 /***/ }),
 
